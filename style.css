@@ -1,0 +1,82 @@
+body {
+	background-color: rgb(65,40,0);
+	color: white;
+	font-family: arial, sans serif;
+	font-size: 25;
+	
+}
+h1	{
+	border-top: 90px;
+	color: #FFA07A;
+	font-family: snell roundhand, cursive;
+	font-size: 70PX
+}
+
+h2	{
+	color: white;
+	font-size: 32px;
+	font-weight: 900;
+
+}
+a {
+	font-family: arial, sans serif;
+	text-decoration: none;
+	color: #6B72E1
+	font-weight: 600;
+	font-size: 16px
+}
+
+a:hover{
+	color: black;
+}
+
+
+/*DESIGN*/
+.container{
+	width: 800px;
+	margin: 40px auto;
+}
+.card{
+	background-color: rgb(170,141,94);
+	padding: 40px;  
+	margin: 20px 30px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px black;
+	text-align: center;
+}
+
+
+.img-circle{
+	border-radius: 50%
+}
+
+.btn-orange{
+	background-color: orange;
+	color: white;
+	padding: 20px 50px;
+	border-radius: 5px;
+}
+.btn-orange: hover {
+	background-color: orange;
+	color: white;
+}
+
+.list-follow{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-follow li {
+	display: inline;
+	padding:10px;
+}
+.list-follow i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+.list-follow i:hover {
+	font-size: 50px;
+	color: black;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
